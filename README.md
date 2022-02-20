@@ -1,4 +1,6 @@
 # Utilize the new arrow function syntax
+-Arrow Functions 
+    *Syntatically compact alternative to a regular function expression
 
 # Understand and use these methods:
 -forEach
