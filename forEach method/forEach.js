@@ -60,3 +60,31 @@ const doubles = numbers.map(function (num) {
 const titles = movies.map(function(movie){
     return movie.title.toLowerCase();
 })
+
+
+
+
+
+
+
+
+
+
+//INTRO TO ARROW FUNCTIONS ***********************************************
+const add = (x,y)=>{
+    return x + y;
+}
+
+//() are optional whenever there is only one parameter
+const square = (x)=>{
+    return x * x;
+}
+
+//arrow function wiht no parameters 
+const rollDie = () =>{
+    return Math.floor(Math.random() * 6) + 1;
+}
+
+const greet = (personName) => {
+    return `Hey ${personName}!`
+}
