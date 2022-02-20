@@ -42,3 +42,21 @@ movies.forEach(function (movie) {
     console.log(`${movie.title} - ${movie.score}/100`)
 })
 
+
+
+
+
+
+
+
+//MAP METHOD *******************************************************************
+//*Creates a new array with the results of calling a callback on every element in the array
+const doubles = numbers.map(function (num) {
+    console.log(num*2);
+    return num * 2;
+})
+
+//Creates a new array with the movies title on it
+const titles = movies.map(function(movie){
+    return movie.title.toLowerCase();
+})
