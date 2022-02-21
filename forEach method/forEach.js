@@ -81,10 +81,28 @@ const square = (x)=>{
 }
 
 //arrow function wiht no parameters 
-const rollDie = () =>{
-    return Math.floor(Math.random() * 6) + 1;
-}
+// const rollDie = () =>{
+//     return Math.floor(Math.random() * 6) + 1;
+// }
 
 const greet = (personName) => {
     return `Hey ${personName}!`
 }
+
+
+
+
+
+
+//ARROW FUNCTION IMPLICIT RETURNS ************************
+const rollDie = () =>(
+     Math.floor(Math.random() * 6) + 1
+);
+
+
+
+// const addd = (a, b) => (
+//     a + b
+// );
+// OR
+const addd = (a, b) => a + b;
