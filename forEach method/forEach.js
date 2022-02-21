@@ -52,12 +52,12 @@ movies.forEach(function (movie) {
 //MAP METHOD *******************************************************************
 //*Creates a new array with the results of calling a callback on every element in the array
 const doubles = numbers.map(function (num) {
-    console.log(num*2);
+    console.log(num * 2);
     return num * 2;
 })
 
 //Creates a new array with the movies title on it
-const titles = movies.map(function(movie){
+const titles = movies.map(function (movie) {
     return movie.title.toLowerCase();
 })
 
@@ -71,12 +71,12 @@ const titles = movies.map(function(movie){
 
 
 //INTRO TO ARROW FUNCTIONS ***********************************************
-const add = (x,y)=>{
+const add = (x, y) => {
     return x + y;
 }
 
 //() are optional whenever there is only one parameter
-const square = (x)=>{
+const square = (x) => {
     return x * x;
 }
 
@@ -95,8 +95,8 @@ const greet = (personName) => {
 
 
 //ARROW FUNCTION IMPLICIT RETURNS ************************
-const rollDie = () =>(
-     Math.floor(Math.random() * 6) + 1
+const rollDie = () => (
+    Math.floor(Math.random() * 6) + 1
 );
 
 
@@ -106,3 +106,18 @@ const rollDie = () =>(
 // );
 // OR
 const addd = (a, b) => a + b;
+
+
+
+
+
+
+
+//********************************************************** 
+// const newMovies = movies.map(function(movie){
+//     return `${movie.title} - ${movie.score / 10}`
+// })
+
+const newMovies = movies.map(movie => (
+    `${movie.title} - ${movie.score / 10}`
+))
