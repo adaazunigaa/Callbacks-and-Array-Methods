@@ -14,6 +14,7 @@
     *Creates a new array wil all elements that pass the test implemented by the provided function
 -find
 -reduce
+    *Executes a reducer function on each element of the array, resulting in a single value
 -some
     *Similar to every, but returns true if ANY of the array elements pass the test function 
 -every
