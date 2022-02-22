@@ -15,7 +15,9 @@
 -find
 -reduce
 -some
+    *Similar to every, but returns true if ANY of the array elements pass the test function 
 -every
+    *Test wheather all elements in the array pass the provided function. It returna a Boolean value.
 
 # Callback functions
 -setTimeout()
