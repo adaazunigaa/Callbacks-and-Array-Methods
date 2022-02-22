@@ -15,3 +15,9 @@
 -reduce
 -some
 -every
+
+# Callback functions
+-setTimeout()
+-setInterval()
+-clearInterval()
+
